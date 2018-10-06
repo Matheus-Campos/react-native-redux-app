@@ -1,10 +1,9 @@
 import { createStackNavigator } from 'react-navigation';
 
-// pages
-import Home from './pages/home';
+import Main from 'pages/main';
 
 const Routes = createStackNavigator({
-  Home,
+  Main,
 });
 
 export default Routes;
