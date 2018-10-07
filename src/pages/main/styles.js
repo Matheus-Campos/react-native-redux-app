@@ -31,6 +31,12 @@ const styles = StyleSheet.create({
     marginTop: metrics.baseMargin * 2,
     alignSelf: 'stretch',
   },
+  error: {
+    fontWeight: 'bold',
+    color: colors.danger,
+    alignSelf: 'center',
+    marginBottom: metrics.baseMargin,
+  },
   input: {
     height: 50,
     paddingHorizontal: metrics.basePadding,
@@ -45,6 +51,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: metrics.baseMargin,
+  },
+  loading: {
+    color: colors.darkTransparent,
   },
   buttonText: {
     color: colors.darkTransparent,

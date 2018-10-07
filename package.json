@@ -8,6 +8,7 @@
     "react-devtool": "react-devtools"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "color": "^3.0.0",
     "prop-types": "^15.6.2",
     "react": "16.5.0",
@@ -15,7 +16,9 @@
     "react-native-vector-icons": "^6.0.1",
     "react-navigation": "^2.17.0",
     "react-redux": "^5.0.7",
-    "redux": "^4.0.0"
+    "reactotron-redux-saga": "^2.1.0",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
